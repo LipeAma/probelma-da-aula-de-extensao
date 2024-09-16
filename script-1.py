@@ -7,10 +7,9 @@ numero_de_iteracoes = 0
 for vetor in conjunto:
     numero_de_iteracoes += 1
     print(vetor)
-
 print(f"No total há {numero_de_iteracoes} elementos, como esperado\n")
 
-# 3 10 20
+# Agora que vimos que a função product realmente é o produto cartesiano, vamos usá-la no problema
 conjunto = product((0,1,2),repeat=10)
 lista_com_os_00 = []
 for vetor in conjunto:
